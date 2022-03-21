@@ -39,8 +39,8 @@ header .icons span {
     color: white;
 }
 nav  {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
     height: 90px;
 }
 nav .nav-logo-container {
